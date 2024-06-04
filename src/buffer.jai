@@ -1194,6 +1194,7 @@ get_tokenize_function :: (lang: Buffer.Lang) -> Tokenize_Function {
         case .Golang;               return tokenize_golang;
         case .Js;                   return tokenize_js;
         case .Json;                 return tokenize_json;
+        case .Swift;                return tokenize_swift;
         case .Lua;                  return tokenize_lua;
         case .Odin;                 return tokenize_odin;
         case .Python;               return tokenize_python;
